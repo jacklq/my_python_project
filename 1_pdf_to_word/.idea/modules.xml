@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/20230330_pdf_to_word.iml" filepath="$PROJECT_DIR$/.idea/20230330_pdf_to_word.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../1.1PaddleOCR_model/PDF2Word_0.1/pdf2word_0.1.2_full/.idea/pdf2word_0.1.2_full.iml" filepath="$PROJECT_DIR$/../1.1PaddleOCR_model/PDF2Word_0.1/pdf2word_0.1.2_full/.idea/pdf2word_0.1.2_full.iml" />
+    </modules>
+  </component>
+</project>

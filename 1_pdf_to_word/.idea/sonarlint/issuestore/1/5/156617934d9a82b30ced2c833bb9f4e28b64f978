@@ -1,0 +1,37 @@
+
+dpython:S1192î"FDefine a constant instead of duplicating this literal '{%s}t' 4 times.(‘µÀÀÿÿÿÿÿ
+dpython:S1192º"KDefine a constant instead of duplicating this literal 'Saving: %s' 3 times.(Û’¬¸
+apython:S5797Î"HReplace this expression; used as a condition it will always be constant.(ÚšÜ¯
+qpython:S3776_"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ú±…ùÿÿÿÿ
+dpython:S1134h"LTake the required action to fix the issue indicated by this "FIXME" comment.(×èéÄ
+qpython:S117–"TRename this local variable "pPr" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãşï¶üÿÿÿÿ
+mpython:S117™"URename this local variable "pgSz" to match the regular expression ^[_a-z][a-z0-9_]*$.(çÁÌì
+tpython:S117—"WRename this local variable "sectPr" to match the regular expression ^[_a-z][a-z0-9_]*$.(Âòáúÿÿÿÿ
+}python:S117à"fRename this local variable "lastRenderedPageBreak" to match the regular expression ^[_a-z][a-z0-9_]*$.(óü–>
+lpython:S117É"TRename this local variable "pJc" to match the regular expression ^[_a-z][a-z0-9_]*$.(œÒÜñ
+qpython:S117Ç"TRename this local variable "pPr" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãşï¶üÿÿÿÿ
+opython:S117È"WRename this local variable "pStyle" to match the regular expression ^[_a-z][a-z0-9_]*$.(ó³ë
+qpython:S117Ñ"TRename this local variable "rPr" to match the regular expression ^[_a-z][a-z0-9_]*$.(«µìæüÿÿÿÿ
+opython:S117œ"WRename this local variable "pStyle" to match the regular expression ^[_a-z][a-z0-9_]*$.(îİ®
+qpython:S117ğ"YRename this local variable "cnfStyle" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜¯ 
+mpython:S3776©"TRefactor this function to reduce its Cognitive Complexity from 62 to the 15 allowed.(¥—¼•
+spython:S117ó"[Rename this local variable "imageAngle" to match the regular expression ^[_a-z][a-z0-9_]*$.(à‘ÔÙ
+rpython:S117î"ZRename this local variable "imageExif" to match the regular expression ^[_a-z][a-z0-9_]*$.(£†ûÃ
+spython:S117ö"[Rename this local variable "imageFlipH" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ï¥¢­
+xpython:S117÷"[Rename this local variable "imageFlipV" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÔŞ¢úÿÿÿÿ
+~python:S117ò"aRename this local variable "imageOrientation" to match the regular expression ^[_a-z][a-z0-9_]*$.(º´Ä²ûÿÿÿÿ
+rpython:S3776²"TRefactor this function to reduce its Cognitive Complexity from 18 to the 15 allowed.(Ğûßûÿÿÿÿ
+Upython:S5754ë"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
+lpython:S1542˜"TRename function "findTypeParent" to match the regular expression ^[a-z_][a-z0-9_]*$.(„¯§,
+mpython:S1542«"ORename function "AdvSearch" to match the regular expression ^[a-z_][a-z0-9_]*$.(›Ïµ¥ûÿÿÿÿ
+rpython:S3776«"TRefactor this function to reduce its Cognitive Complexity from 50 to the 15 allowed.(›Ïµ¥ûÿÿÿÿ
+npython:S1542÷"PRename function "advReplace" to match the regular expression ^[a-z_][a-z0-9_]*$.( ‘Ğ¬ıÿÿÿÿ
+spython:S3776÷"URefactor this function to reduce its Cognitive Complexity from 120 to the 15 allowed.( ‘Ğ¬ıÿÿÿÿ
+<python:S125½"Remove this commented out code.(ø°È§ÿÿÿÿÿ
+7python:S125Ã"Remove this commented out code.(Ó±Ãƒ
+>python:S3457á" Remove 1 unexpected argument(s).(ÙÔ—‚ıÿÿÿÿ
+rpython:S3776"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(îøÄ½şÿÿÿÿ
+Bpython:S1940¥")Use the opposite operator ("!=") instead.(¡Õ¼Ş
+kpython:S1854Ó"MRemove this assignment to local variable 'appprops'; the value is never used.(ÿÚÍÅúÿÿÿÿ
+epython:S1134Š"LTake the required action to fix the issue indicated by this "FIXME" comment.(ò²·
+6python:S3626Ó"Remove this redundant return.(ÙãŞŸ

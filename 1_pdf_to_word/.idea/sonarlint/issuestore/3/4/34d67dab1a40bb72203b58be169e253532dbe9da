@@ -1,0 +1,5 @@
+
+hpython:S117%"QRename this parameter "TOOLS" to match the regular expression ^[_a-z][a-z0-9_]*$.(“¬£ß
+6python:S125&"Remove this commented out code.(İÿÓù
+rpython:S3776Ÿ"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ë´¡üÿÿÿÿ
+Upython:S5754Ô"<Specify an exception class to catch or reraise the exception(ˆÊÉ·
