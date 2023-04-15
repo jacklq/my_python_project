@@ -1,0 +1,6 @@
+功能说明：
+共有三个python文档:
+    pdf_to_word_by_pdfplumber.py:使用pdfplumber方法将pdf文档转换成word,这个适用于标准格式的pdf
+    scan_pdf_to_word_by_PaddleOCR.py：使用PaddleOCR方法将pdf文档转换成word,这个适用于图片扫描类的pdf
+    scan_pdf_to_word_by_pytesseract.py：使用pdfplumber方法将pdf文档转换成word,这个适用于图片扫描类的pdf，但是准确性没有PaddleOCR高
+推荐使用：scan_pdf_to_word_by_PaddleOCR
