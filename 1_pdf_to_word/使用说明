@@ -4,3 +4,7 @@
     scan_pdf_to_word_by_PaddleOCR.py：使用PaddleOCR方法将pdf文档转换成word,这个适用于图片扫描类的pdf
     scan_pdf_to_word_by_pytesseract.py：使用pdfplumber方法将pdf文档转换成word,这个适用于图片扫描类的pdf，但是准确性没有PaddleOCR高
 推荐使用：scan_pdf_to_word_by_PaddleOCR
+
+使用说明：
+      在config.yaml中修改待转换pdf位置和生成word的存储位置，需要严格按照格式要求写，否则会报错
+
