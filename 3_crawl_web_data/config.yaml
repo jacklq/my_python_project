@@ -1,0 +1,22 @@
+
+#爬取数据存储地址
+file_storage_path: "C:/Users/jack8/Desktop/test/"
+#true表示仅爬取文本，保存到一个word里，false为分开存储
+store_text_to_one_word_flag: "True"
+
+#待爬取的网址,注意这里的网址为通知公告的网址，例如通知公告的第一页为http://gat.shandong.gov.cn/col/col9253/index.html?uid=48445&pageNum=2
+waiting_crawl_url: "http://gat.shandong.gov.cn/col/col9253/index.html?uid=48445&pageNum="
+#带爬取网址对应的页数，比如通知公告网址有10页，如果start取值为0，end取值为1，那么就是爬取第一页的
+waiting_crawl_url_start: 2
+waiting_crawl_url_end: 3
+
+# 打开浏览器输入：“about:version”，查看“用户代理”，即本机的user-agent
+user_agent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'
+# 用正则表达式获得文件网址，每个网站可能不同，该参数需要适时修改
+get_info_urls_regular_express: '<a href=".*?" target="_blank">'
+# 用正则表达式获得附件名称，该参数需要适时修改
+get_attachment_name_regular_express: '".*?>(.*?)</a>'
+#将爬取的正文汇总到一个word中的word文档名称
+summarized_data: "汇总数据"
+
+

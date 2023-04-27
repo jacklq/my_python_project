@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "D:\projectLQ\1_my_github_project\my_python_project\3_crawl_web_data\test.py", line 188, in <module>
+    new_doc = docx.Document()
+KeyboardInterrupt
