@@ -1,4 +1,8 @@
 Traceback (most recent call last):
-  File "D:\projectLQ\1_my_github_project\my_python_project\3_crawl_web_data\test.py", line 188, in <module>
-    new_doc = docx.Document()
-KeyboardInterrupt
+  File "D:\professionSoftwareInstall\pycharm\PyCharm Community Edition 2022.3.2\plugins\python-ce\helpers\pydev\pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "D:\professionSoftwareInstall\pycharm\PyCharm Community Edition 2022.3.2\plugins\python-ce\helpers\pydev\_pydev_imps\_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "D:\projectLQ\1_my_github_project\my_python_project\3_crawl_web_data\crawl_web_data.py", line 98, in <module>
+    text_contents = each_info_soup.find("div", id="48445")
+NameError: name 'each_info_soup' is not defined

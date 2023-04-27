@@ -22,7 +22,9 @@ from bs4 import BeautifulSoup  # 导入bs4库
 import aspose.words as aw  # aspose-words
 
 if __name__ == '__main__':
-    string = "2023-04-24 17:04:48 山东省公安厅2023年度面向社会招录公务员（人民警察）体能测评公告"
-    date_time = string.split()[:2]
-    date_time_str="".join(date_time)
-    print(date_time_str)
+    each_info_url="http://www.zgnx.gov.cn/gov/zwgk/tongzhigonggao/index.jhtml"
+    response_each_info = requests.get(each_info_url)  # 用变量response_gwy保存访问网址后获得的信息
+    response_each_info_content = response_each_info.content.decode('utf-8')  # 用'utf-8'的编码模式来记录网址内容，防止出现中文乱码
+    each_info_soup = BeautifulSoup(response_each_info_content, features="lxml")
+    text_contents = each_info_soup.find("div", id="con_01 list_bg pt5 pl20 pr20")
+    print(text_contents)

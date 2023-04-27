@@ -92,10 +92,12 @@ if __name__ == '__main__':
         page_url = waiting_crawl_url + str(num)  # 将获得的数字和网址进行拼接得到15个网址，注意要将变量a用str（）转换为字符串才能拼接
         page_response = requests.get(page_url, headers=user)  # 用requests库的get函数访问网页，用headers进行伪装
         page_html = page_response.content.decode('utf-8')  # 用文本显示访问网页得到的内容
+        page_soup = BeautifulSoup(page_html, features="lxml")
         # print(page_html)  # 打印网页内容，以便于使用正则表达式.
 
         """用正则表达式来获得每个文件的网址"""
-        all_info_original_urls = re.findall(get_info_urls_regular_express, page_html)  # 用正则表达式获得文件网址，每个网站可能不同，该参数需要适时修改
+        page_div = page_soup.find("div", id="48445").contents[0].contents[0]        #先获取div内的数据
+        all_info_original_urls = re.findall(get_info_urls_regular_express, page_div)  # 用正则表达式获得文件网址，每个网站可能不同，该参数需要适时修改
         all_info_original_urls_str = "".join(all_info_original_urls)  # 将列表转化为字符串
         all_info_real_urls = re.findall('[a-zA-z]+://[^\s"]*', all_info_original_urls_str)  # 提取网页中的每个文件具体网址
 
