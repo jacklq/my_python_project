@@ -1,0 +1,10 @@
+
+#第一个excel数据存储地址
+first_excel_path: "待1.xlsx"
+#第二个excel数据存储地址
+second_excel_path: "待2.xlsx"
+#合并后excel数据存储地址
+new_merged_excel_path: "新.xlsx"
+
+
+
