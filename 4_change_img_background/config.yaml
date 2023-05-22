@@ -1,0 +1,14 @@
+
+#待转换图片地址
+old_image_path: "C:/Users/jack8/Desktop/3.jpg"
+#转换后图片地址
+new_image_path: "C:/Users/jack8/Desktop/2.JPG"
+#背景颜色
+color: "white"
+#RemoveBg的api，可以在官方网站：https://www.remove.bg/zh/api注册获取
+api: "V9ComwZYQVB6x4KRL4VdxNBC"
+#照片尺寸，1代表1寸，2代表2寸
+inch: 1
+
+
+

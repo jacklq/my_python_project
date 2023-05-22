@@ -1,0 +1,5 @@
+有两种方式可以实现照片背景替换：
+1-backgroundremover
+2-RemoveBg
+第一种backgroundremover方法的效果没有第二种RemoveBg的效果好，但是backgroundremover是免费的
+第二种方法RemoveBg不免费
