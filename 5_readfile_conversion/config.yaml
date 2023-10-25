@@ -1,0 +1,10 @@
+
+#爬取数据存储地址
+new_word_path: "D:/work/LQ/2023阅办单/"
+
+max_num_new_word: 2
+template_path: "D:/work/LQ/2023阅办单/1-模板.docx"
+registration_form_path: "D:/work/LQ/2023阅办单/0-2023文件处理.xlsx"
+
+
+

@@ -1,0 +1,8 @@
+1-从外网电脑pycharm的终端输入以下指令：
+pyinstaller -F -p D:\pythonProject\5_readfile_conversion\venv\Lib\site-packages readFileConversion.py
+
+注意D:\pythonProject\5_readfile_conversion\venv\Lib\site-packages需更换为实际地址
+
+2-会生成两个文件夹，dist和build，和一个spec文件，将这三个文件复制到内网
+
+3-将dist文件夹中的exe文件复制到py文件同一目录下，否则将报找不到config.yaml文件

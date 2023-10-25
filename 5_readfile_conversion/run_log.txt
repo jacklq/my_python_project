@@ -1,0 +1,11 @@
+开始获取excel中的数据
+获取excel中的数据成功
+开始生成word文档
+开始生成word文档
+{'name': 'ceshi', 'file_num': '公科信传发〔2023〕321号', 'source': '部科信局', 'time': '20231023', 'time_year': '2023', 'time_mon': 10, 'time_day': 23, 'secret': '无', 'suggestion': '一、呈竹林同志阅示；\n二、请同军同志阅；\n三、拟请三支队阅办。'}
+word文档已存在，已打印过，不再进行重复打印
+开始生成word文档
+{'name': 'asdasd', 'file_num': '公科信传发〔2023〕321号', 'source': '部科信局', 'time': '20231023', 'time_year': '2023', 'time_mon': 10, 'time_day': 23, 'secret': '无', 'suggestion': '一、呈竹林同志阅示；\n二、请同军同志阅；\n三、拟请三支队阅办。'}
+生成word文档成功
+开始调用打印机
+调用打印机成功

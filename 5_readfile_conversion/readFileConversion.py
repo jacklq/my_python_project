@@ -15,19 +15,19 @@ template_path = ""
 registration_form_path = ""
 
 
-# 调用打印机
+#调用打印机
 def printer_loading(filename):
     print("开始调用打印机")
     win32api.ShellExecute(
-        0,  # 父窗口的句柄，如果没有父窗口，则为0
-        "print",  # 要进行的操作，为“open”、“print”或者为空
-        filename,  # 要打印的文件
-        win32print.GetDefaultPrinter(),  # 要向程序传递的参数.这里调用系统默认的打印机
-        ".",  # 程序初始化的目录
-        0  # 是否显示窗口
+            0,  # 父窗口的句柄，如果没有父窗口，则为0
+            "print",  # 要进行的操作，为“open”、“print”或者为空
+            filename,  # 要打印的文件
+            win32print.GetDefaultPrinter(),  # 要向程序传递的参数.这里调用系统默认的打印机
+            ".",  # 程序初始化的目录
+            0  # 是否显示窗口
     )
     print("调用打印机成功")
-    #获取真实excle行数
+    # 获取真实excle行数
 def get_max_row(sheet):
     i=sheet.max_row
     real_max_row = 0
